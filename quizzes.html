@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>quizzes</title>
+       <link rel="icon" type="image/x-icon" href="photo/1.png">
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="css/kids.css">
+       <link rel="stylesheet" href="icon/play/css/all.css">
+       <meta name="quizzes" content="HTML, CSS, JavaScript">
+    </head>
+    <body id="bo4">
+   <!-- <div id="wait">
+        <h1 style="margin-left: 41%;margin-top: 15%; color: brown;" id="h1r">إنتظر لحظة</h1>
+       <div class="loader"></div>
+     </div> -->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" style="font-size: 50px;" onclick="closeNav()">&times;</a>
+    <a href="index.html">الصفحة الرئيسية</a>
+    <a href="letters.html"> الحروف</a>
+    <a href="numbers and maths.html"> أرقام وحساب</a>
+    <img src="photo/1.png" style="top: 40%;left:30%; position: absolute; width: 100px; height: 100px; z-index: 1;">
+  </div>
+  <span style="cursor:pointer; position:absolute; font-size: 40px; color:black; border: 5px double; border-radius: 30px; z-index: 2 !important; top: 0px;"  onmouseover="this.style.color='brown'" onMouseOut="this.style.color='black'" onclick="openNav()" id="up5">&#9776; </span>
+
+  <button id="q2lsw" onclick="q2lsw()">اختبار مستوى ثانى حروف</button>
+  <button id="q2nsw" onclick="q2nsw()">اختبار مستوى ثانى رياضيات</button>
+
+  <div id="contener1">
+<div id="dq1">
+    <center>
+    <p class="tiq1">  اختبار مستوى ثانى حروف
+        <br>
+        اضغط على الحرف الصحيح
+    </p>
+</center>
+
+
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa1()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq1.jpg" class="qim">
+    <p class="qp">رنب.....</p>
+</div>
+<div class="qa1">
+<img src="photo/13c3.jpg" id="o1" onclick="o1()">  
+<img src="photo/1c1.jpg"  id="o2" onclick="o2()">
+<img src="photo/4c3.jpg"  id="o3" onclick="o3()">
+</div>
+
+
+
+<hr>
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa2()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq2.jpg" class="qim">
+    <p class="qp">رتقالة.....</p>
+</div>
+<div class="qa1">
+<img src="photo/2c3.jpg" id="o4" onclick="o4()">
+<img src="photo/13c3.jpg" id="o5" onclick="o5()">  
+<img src="photo/1c1.jpg" id="o6" onclick="o6()">
+
+</div>
+<hr>
+
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa3()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq3.jpg" class="qim">
+    <p class="qp">جرة.....</p>
+</div>
+<div class="qa1">
+<img src="photo/11c3.jpg" id="o7" onclick="o7()">  
+<img src="photo/1c1.jpg" id="o8" onclick="o8()">
+<img src="photo/13c1.jpg" id="o9" onclick="o9()">
+</div>
+
+<hr>
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa4()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq4.jpg" class="qim">
+    <p class="qp">حاب.....</p>
+</div>
+<div class="qa1">
+<img src="photo/12c1.jpg" id="o10" onclick="o10()">  
+<img src="photo/1c1.jpg" id="o11" onclick="o11()">
+<img src="photo/4c3.jpg" id="o12" onclick="o12()">
+</div>
+<hr>
+
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa5()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq5.jpg" class="qim">
+    <p class="qp">عبان.....</p>
+</div>
+<div class="qa1">
+<img src="photo/13c3.jpg" id="o13" onclick="o13()"> 
+<img src="photo/4c3.jpg" id="o14" onclick="o14()"> 
+<img src="photo/3c1.jpg" id="o15" onclick="o15()">
+
+</div>
+<hr>
+
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa6()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq6.jpg" class="qim">
+    <p class="qp">ارب.....</p>
+</div>
+<div class="qa1">
+<img src="photo/21c1.jpg" id="o16" onclick="o16()">  
+<img src="photo/1c1.jpg" id="o17" onclick="o17()">
+<img src="photo/5c3.jpg" id="o18" onclick="o18()">
+</div>
+
+<hr>
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa7()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq7.jpg" class="qim">
+    <p class="qp">ائلة.....</p>
+</div>
+<div class="qa1">
+<img src="photo/13c3.jpg" id="o19" onclick="o19()">  
+<img src="photo/1c1.jpg" id="o20" onclick="o20()">
+<img src="photo/18c1.jpg" id="o21" onclick="o21()">
+</div>
+
+<hr>
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa8()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq8.jpg" class="qim">
+    <p class="qp">رة.....</p>
+</div>
+<div class="qa1">
+<img src="photo/13c3.jpg" id="o22" onclick="o22()">  
+<img src="photo/22c2.jpg" id="o23" onclick="o23()">
+<img src="photo/10c3.jpg" id="o24" onclick="o24()">
+</div>
+
+<hr>
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa9()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq9.jpg" class="qim">
+    <p class="qp">جاجة.....</p>
+</div>
+<div class="qa1">
+<img src="photo/8c1.jpg" id="o25" onclick="o25()">  
+<img src="photo/1c1.jpg" id="o26" onclick="o26()">
+<img src="photo/18c1.jpg" id="o27" onclick="o27()">
+</div>
+
+<hr>
+<div class="qq1"> 
+    <button class="playq" onclick="pcqa10()"><i class="fas fa-play"></i></button>
+    <img src="photo/cq10.jpg" class="qim">
+    <p class="qp">ائرة.....</p>
+</div>
+<div class="qa1">
+<img src="photo/16c1.jpg" id="o28" onclick="o28()">  
+<img src="photo/17c1.jpg" id="o29" onclick="o29()">
+<img src="photo/14c3.jpg" id="o30" onclick="o30()">
+</div>
+
+
+
+
+
+</div>
+</div>
+
+<div id="contener2">
+
+    <div id="dq1">
+        <center>
+        <p class="tiq1">  اختبار مستوى ثانى رياضيات
+            <br>
+            اكتب الاجابة الصحيحة
+        </p>
+    
+    <label id="l1">(السؤال الاول) <br> 4+2=</label>
+    <input type="text" id="numb1" maxlength="1">
+  
+
+    <label id="l2">(السؤال الثانى) <br> 7+1=</label>
+    <input type="text" id="numb2" maxlength="1">
+
+    <label id="l3">(السؤال الثالث) <br> 4+3=</label>
+    <input type="text" id="numb3" maxlength="1">
+
+
+    <label id="l4">(السؤال الرابع) <br> 5+5=</label>
+    <input type="text" id="numb4" maxlength="2">
+
+
+    <label id="l5">(السؤال الخامس) <br> 5×2=</label>
+    <input type="text" id="numb5" maxlength="2">
+
+
+    <label id="l6">(السؤال السادس) <br> 3×3=</label>
+    <input type="text" id="numb6" maxlength="1">
+    
+
+    <label id="l7">(السؤال السابع) <br> 5×3=</label>
+    <input type="text" id="numb7" maxlength="2">
+    
+
+    <label id="l8">(السؤال الثامن) <br> 6÷2=</label>
+    <input type="text" id="numb8" maxlength="1">
+   
+
+    <label id="l9">(السؤال التاسع) <br> 9÷3=</label>
+    <input type="text" id="numb9" maxlength="3">
+    
+
+
+    <label id="l10">(السؤال العاشر) <br> 3-8=</label>
+    <input type="text" id="numb10" maxlength="1">
+    
+
+    <button type="button" onclick="shrus()">النتائج</button>
+    <p id="rus1"></p>
+    <p id="rus2"></p>
+    <p id="rus3"></p>
+    <p id="rus4"></p>
+    <p id="rus5"></p>
+    <p id="rus6"></p>
+    <p id="rus7"></p>
+    <p id="rus8"></p>
+    <p id="rus9"></p>
+    <p id="rus10"></p>
+
+    
+</center>
+    </div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+   
+<audio src="audio/cq1.mp3" id="cqa1"></audio>
+<!--<audio src="audio/cq2.mp3" id="cqa2"></audio>
+<audio src="audio/cq3.mp3" id="cqa3"></audio>
+<audio src="audio/cq4.mp3" id="cqa4"></audio>
+<audio src="audio/cq5.mp3" id="cqa5"></audio>
+<audio src="audio/cq6.mp3" id="cqa6"></audio>
+<audio src="audio/cq7.mp3" id="cqa7"></audio>
+<audio src="audio/cq8.mp3" id="cqa8"></audio>
+<audio src="audio/cq9.mp3" id="cqa9"></audio>
+<audio src="audio/cq10.mp3" id="cqa10"></audio>-->
+<audio src="audio/er.mp3" id="er"></audio>
+<audio src="audio/true.mp3" id="tur"></audio>
+
+
+
+<img id="up1" src="photo/up1.png" onclick="up1()">
+
+     <script src="js/quizzes.js"></script>
+     <script>
+
+     </script>
+        </body>
+    </html>

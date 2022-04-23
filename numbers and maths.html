@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>numbers and maths</title>
+       <link rel="icon" type="image/x-icon" href="photo/1.png">
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="css/kids.css">
+       <meta name="numbers and maths" content="HTML, CSS, JavaScript">
+    </head>
+    <body id="bo3">
+     <div id="wait">
+        <h1 style="margin-left: 41%;margin-top: 15%; color: brown;" id="h1r">إنتظر لحظة</h1>
+       <div class="loader"></div>
+     </div> 
+
+         <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" style="font-size: 50px;" onclick="closeNav()">&times;</a>
+            <a href="index.html">الصفحة الرئيسية</a>
+            <a href="letters.html"> الحروف</a>
+            <a href="quizzes.html"> اختبارات </a>
+            <img src="photo/1.png" style="top: 40%;left:30%; position: absolute; width: 100px; height: 100px; z-index: 1;">
+          </div>
+          <span style="cursor:pointer; position:absolute; font-size: 40px; color:black; border: 5px double; border-radius: 30px; z-index: 2 !important; top: 0px;"  onmouseover="this.style.color='brown'" onMouseOut="this.style.color='black'" onclick="openNav()" id="up5">&#9776; </span>
+          <marquee id="mqi2" direction="left" behavior="scroll" scrollamount="10">
+            <img src="photo/4.gif" id="mq2">
+         </marquee>
+        <button id="number" onclick="numsw()">الأرقام</button>
+        <button id="arithmetic" onclick="arcsw()"> المعاملات الحسابية</button>
+          <div class="grid3" id="gd3">
+            <div onclick="an0()"><img src="photo/num1.jpg"></div>
+            <div onclick="an1()"><img src="photo/num1.png"></div>
+            <div onclick="an2()"><img src="photo/num2.png"></div>
+            <div onclick="an3()"><img src="photo/num3.png"></div>
+            <div onclick="an4()"><img src="photo/num4.png"></div>
+            <div onclick="an5()"><img src="photo/num5.png"></div>
+            <div onclick="an6()"><img src="photo/num6.png"></div>
+            <div onclick="an7()"><img src="photo/num7.png"></div>
+            <div onclick="an8()"><img src="photo/num8.png"></div>
+            <div onclick="an9()"><img src="photo/num9.png" ></div>
+            <div onclick="an10()"><img src="photo/num10.png"></div>
+            <div><img src="photo/summix.png"></div>
+            <div onclick="en0()"><img src="photo/nu1.jpg"></div>
+            <div onclick="en1()"><img src="photo/nu1.png"></div>
+            <div onclick="en2()"><img src="photo/nu2.png"></div>
+            <div onclick="en3()"><img src="photo/nu3.png"></div>
+            <div onclick="en4()"><img src="photo/nu4.png"></div>
+            <div onclick="en5()"><img src="photo/nu5.png"></div>
+            <div onclick="en6()"><img src="photo/nu6.png"></div>
+            <div onclick="en7()"><img src="photo/nu7.png"></div>
+            <div onclick="en8()"><img src="photo/nu8.png"></div>
+            <div onclick="en9()"><img src="photo/nu9.png"></div>
+            <div onclick="en10()"><img src="photo/nu10.png"></div>
+            <div><video onplay="play4()" width="100%" height="100%" src="video/ve4.mp4" type="video/mp4" onplay="play4()"  controls id="ve4"></video></div>
+
+
+          </div>
+
+          <div class="grid4" id="gd4">
+            <div><img src="photo/g410.jpg">
+ <p>(يساوي)</p>
+     
+     </div>
+<div><img src="photo/g42.jpg">
+ <p>2×2=4 (ضرب)</p>
+     
+     </div>
+<div><img src="photo/g43.jpg">
+     
+     <p>2÷2=4 (قسمة)</p>
+     </div>
+<div><img src="photo/g41.png">
+     <p>2+2=4 (جمع)</p>
+     </div>
+<div><img src="photo/g44.png">
+     <p>2-2=4(طرح)</p>
+     
+     </div>
+<div><img src="photo/g45.png">
+     <p>3 &#62 1 (أكبر من)</p>
+     </div>
+<div><img src="photo/g49.png">
+     <p>1 &#60 3 (أصغر من)</p>
+     </div>        
+</div>
+ <button id="bhs" onclick="shh()"> اظهار جدول الضرب </button>
+ <button id="bhh" onclick="hhh()">اخفاء جدول الضرب </button>
+ <div id="dn">
+ </div>
+          <audio src="audio/0a.mp3" id="0a"></audio>
+          <audio src="audio/1a.mp3" id="1a"></audio>
+          <audio src="audio/2a.mp3" id="2a"></audio>
+          <audio src="audio/3a.mp3" id="3a"></audio>
+          <audio src="audio/4a.mp3" id="4a"></audio>
+          <audio src="audio/5a.mp3" id="5a"></audio>
+          <audio src="audio/6a.mp3" id="6a"></audio>
+          <audio src="audio/7a.mp3" id="7a"></audio>
+          <audio src="audio/8a.mp3" id="8a"></audio>
+          <audio src="audio/9a.mp3" id="9a"></audio>
+          <audio src="audio/10a.mp3" id="10a"></audio>
+          <audio src="audio/0e.mp3" id="0e"></audio>
+          <audio src="audio/1e.mp3" id="1e"></audio>
+          <audio src="audio/2e.mp3" id="2e"></audio>
+          <audio src="audio/3e.mp3" id="3e"></audio>
+          <audio src="audio/4e.mp3" id="4e"></audio>
+          <audio src="audio/5e.mp3" id="5e"></audio>
+          <audio src="audio/6e.mp3" id="6e"></audio>
+          <audio src="audio/7e.mp3" id="7e"></audio>
+          <audio src="audio/8e.mp3" id="8e"></audio>
+          <audio src="audio/9e.mp3" id="9e"></audio>
+          <audio src="audio/10e.mp3" id="10e"></audio>
+         <img id="up1" src="photo/up1.png" onclick="up1()"> 
+
+          <script src="js/numbers and maths.js"></script>
+          
+        </body>
+    </html>
