@@ -20,9 +20,9 @@
    }
  #bo1 {
      margin: 0px;
-     background-image: url(../photo/1.gif);
+     background-image: url(../photo/giphy.gif);
      background-repeat: no-repeat;
-     background-position: auto;
+     background-position: center;
      background-size: contain;
      background-attachment: fixed;
  }
@@ -84,24 +84,7 @@
      0% { transform: rotate(0deg); }
      100% { transform: rotate(360deg); }
    }
- 
- .imglogo{
-     width: 100px;
-     height: 100%;
-     float: right;
-     display: inline;
- }
- .plogo{
-     font-size: 50px;
-     display: inline;
-     float: left;
-     color: white;
-     font-family:fantasy;
- }
- .plogo:hover{
-     color:lightgoldenrodyellow ;
-     cursor: none;
- }
+
  
  #up1{
      width: 100px;
@@ -114,33 +97,31 @@
      overflow-x:hidden;
   
  }
- 
- #navhome {
-     width: 100%;
-     height: 60px;
-     background-color: brown;
- position: fixed;
- display: inline-flex;
- }
- .namew{
-     width: 20%;
-     height: 60px;
-     float: left;
-     background-color: brown;
-    
- }
- .logo{
-     width: 20%;
-     height: 60px;
-     float: right;
-     background-color: brown;
- }
- .links{
-     width: 60%;
-     height: 60px;
-     background-color: brown;
- }
- 
+
+
+ #navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
  .sidenav {
      height: 100%;
      width: 0;
@@ -266,17 +247,6 @@
      display: none;
  }
  
- .le1 {
-     color: white;
-     font-size: 30px;
-     text-decoration-line: none;
-     margin: 10px;
-     display: inline-flex;
-     float: right;
- }
- .le1:hover {
-     color: lightgoldenrodyellow;
- }
  
  /*index*/
  
@@ -829,12 +799,78 @@
     border-width: 4px;
 }
 
-
- 
- 
+.d5{
+    position:relative;
+    width: 1000px;
+    height: 750px;
+    margin-left: 250px;
+    margin-top: 200px;
+    }
+    .d6{
+    position: absolute;
+    background-color: white;
+    width: 43%;
+    height: 73.5%;
+    opacity: 0.7;
+    margin-top: 200px;
+    right: 0px;
+    z-index: 50;
+    border-radius:100px;
+    border: none;
+    }
+    .d7{
+    position: absolute;
+    width: 700px;
+    height: 750px;
+    z-index: 20;
+    background-color: rgb(235, 137, 137);
+    border-radius: 5px 10px 5px 10px;
+    border: none;
+    opacity: 0.9;
+    }
+    .img2{
+    position: absolute;
+    width: 700px;
+    height: 750px;
+    }
+    .p5{
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 30px;
+    }
+    .h2{
+    margin-top: 50px;
+    }
+   
  @media screen and (max-width: 1000px) {
  
-     
+    
+
+    
+        .d5{
+        width: 800px;
+        height: 600px;
+        margin-left: 100px;
+        margin-top: 250px;
+        }
+        .d6{
+        width: 40%;
+        height: 84%;
+        margin-top: 100px;
+        }
+        .d7{
+        width: 700px;
+        bottom: 0px;
+        }
+        .img2{
+        width: 700px;
+        height: 600px;
+        }
+      
+        .h2{
+        margin-left: 30px;
+        }
+    
      .grid1 {
          grid-template-columns: repeat(2, 1fr);
          grid-gap: 20px;
@@ -931,7 +967,40 @@
  
  @media screen and (max-width: 600px) {
  
- 
+  
+   
+    .d5{
+        width: 100%;
+        height: 750px;
+        margin-left: 0px;
+        margin-top: 250px;
+        }
+        .d6{
+        position: absolute;
+        background-color: white;
+        width: 60%;
+        height: 73.5%;
+        opacity: 0.7;
+        margin-top: 200px;
+        right: 0px;
+        z-index: 50;
+        border-radius:100px;
+        border: none;
+        }
+        .d7{
+        position: absolute;
+        width: 70%;
+        height: 750px;
+        }
+        .img2{
+        position: absolute;
+        width: 100%;
+        height: 750px;
+        }
+        
+        
+
+
      .loader {
          top: 30%;
          left: 30%;
@@ -941,9 +1010,7 @@
      margin-top: 20% !important;
      margin-left: 30% !important;
  }
- .plogo{
-     font-size: 10px;
- }
+
  
      .ss {
          margin-left: 10px;

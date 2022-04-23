@@ -1,7 +1,7 @@
-setTimeout(wait, 2000)
+/*setTimeout(wait, 2000)
 function wait(){
     document.getElementById("wait").remove();
-}
+}*/
   window.onscroll = function() {myFunction()};
   function myFunction() {
 if(document.documentElement.scrollTop > 0){
@@ -15,7 +15,27 @@ else{
 function up1(){
   document.documentElement.scrollTop = 0;
 }
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+
+
+
+
+
+
+
+
+setInterval(cs1, 5000);
+setInterval(cs2, 10000);
+setInterval(cs3, 15000);
+setInterval(cs4, 20000);
 function cs1() {
 document.getElementById("ss1").style.display="block";
 document.getElementById("ss2").style.display="none";
@@ -58,4 +78,3 @@ function cs4(){
 }
 
 
-        

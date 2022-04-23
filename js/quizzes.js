@@ -37,8 +37,6 @@ else{
 function up1(){
   document.documentElement.scrollTop = 0;
 }
-
-
 function q2lsw() {
   document.getElementById("q2lsw").style.display="none";
   document.getElementById("contener1").style.display="block";
