@@ -1,7 +1,7 @@
-/*setTimeout(wait, 2000)
+setTimeout(wait, 2000)
 function wait(){
     document.getElementById("wait").remove();
-}*/
+}
   window.onscroll = function() {myFunction()};
   function myFunction() {
 if(document.documentElement.scrollTop > 0){
