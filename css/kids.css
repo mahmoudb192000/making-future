@@ -95,6 +95,7 @@
      cursor: pointer;
      display: none;
      overflow-x:hidden;
+     z-index: 60;
   
  }
 
