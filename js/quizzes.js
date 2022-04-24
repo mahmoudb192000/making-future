@@ -37,25 +37,78 @@ else{
 function up1(){
   document.documentElement.scrollTop = 0;
 }
+
+function q1nsw() {
+  document.getElementById("q1nsw").style.display="none";
+  document.getElementById("q1lsw").style.display="block";
+  document.getElementById("q2nsw").style.display="block";
+  document.getElementById("q2lsw").style.display="block";
+  document.getElementById("contener2").style.display="none";
+  document.getElementById("contener1").style.display="none";
+  document.getElementById("contener3").style.display="block";
+  document.getElementById("contener4").style.display="none";
+  document.getElementById("q1lsw").style.top="8%";
+  document.getElementById("q2lsw").style.top="8%";
+  document.getElementById("q2nsw").style.top="8%";
+  document.getElementById("q1lsw").style.left="25%";
+  document.getElementById("q2lsw").style.left="50%";
+  document.getElementById("q2nsw").style.left="75%";
+
+
+  
+}
+function q1lsw() {
+  document.getElementById("q1lsw").style.display="none";
+  document.getElementById("q2nsw").style.display="block";
+  document.getElementById("q2lsw").style.display="block";
+  document.getElementById("q1nsw").style.display="block";
+  document.getElementById("contener2").style.display="none";
+  document.getElementById("contener1").style.display="none";
+  document.getElementById("contener3").style.display="none";
+  document.getElementById("contener4").style.display="block";
+  document.getElementById("q1nsw").style.top="8%";
+  document.getElementById("q2lsw").style.top="8%";
+  document.getElementById("q2nsw").style.top="8%";
+  document.getElementById("q2nsw").style.left="25%";
+  document.getElementById("q2lsw").style.left="50%";
+  document.getElementById("q1nsw").style.left="75%";
+}
 function q2lsw() {
   document.getElementById("q2lsw").style.display="none";
+  document.getElementById("q1lsw").style.display="block";
+  document.getElementById("q1nsw").style.display="block";
+  document.getElementById("q2nsw").style.display="block";
   document.getElementById("contener1").style.display="block";
   document.getElementById("contener2").style.display="none";
-  document.getElementById("q2nsw").style.display="block";
+  document.getElementById("contener3").style.display="none";
+  document.getElementById("contener4").style.display="none";
+  document.getElementById("q1nsw").style.top="8%";
+  document.getElementById("q1lsw").style.top="8%";
   document.getElementById("q2nsw").style.top="8%";
-  document.getElementById("q2nsw").style.left="50%";
+  document.getElementById("q1nsw").style.left="25%";
+  document.getElementById("q1lsw").style.left="50%";
+  document.getElementById("q2nsw").style.left="75%";
 
 
 }
 function q2nsw() {
   document.getElementById("q2nsw").style.display="none";
+  document.getElementById("q1lsw").style.display="block";
+  document.getElementById("q1nsw").style.display="block";
+  document.getElementById("q2lsw").style.display="block";
   document.getElementById("contener2").style.display="block";
   document.getElementById("contener1").style.display="none";
-  document.getElementById("q2lsw").style.display="block";
+  document.getElementById("contener3").style.display="none";
+  document.getElementById("contener4").style.display="none";
+  document.getElementById("q1nsw").style.top="8%";
+  document.getElementById("q1lsw").style.top="8%";
   document.getElementById("q2lsw").style.top="8%";
-  document.getElementById("q2lsw").style.left="50%";
-
+  document.getElementById("q1nsw").style.left="25%";
+  document.getElementById("q1lsw").style.left="50%";
+  document.getElementById("q2lsw").style.left="75%";
+  
 }
+
 
 
 
@@ -575,5 +628,152 @@ function q2nsw() {
           document.getElementById("bo4").style.backgroundImage="url('./photo/b4.gif')";
         }
         }
+function cho1(){
+  document.getElementById("cho1").style.border="4px solid brown";
+  document.getElementById("cho1").style.borderRadius="10px 5px 20px 10px";
+  document.getElementById("cho2").style.border="none";
+}
+function cho2(){
+  document.getElementById("cho2").style.border="4px solid brown";
+  document.getElementById("cho2").style.borderRadius="10px 5px 20px 10px";
+  document.getElementById("cho1").style.border="none";
+}
+  
+      function qzrg(){
+      var q1=document.getElementById("vu1").value;
+      var q2=document.getElementById("vu2").value;
+      var q3=document.getElementById("vu3").value;
+      var q4=document.getElementById("vu4").value;
+      var q5=document.getElementById("vu5").value;
+      var q6=document.getElementById("vu6").value;
+      var q7=document.getElementById("vu7").value;
+      var q8=document.getElementById("vu8").value;
+      var q9=document.getElementById("vu9").value;
+      var q10=document.getElementById("vu10").value;
+      if(q1=="65" && q2=="36" && q3=="0"  && q4=="161"  && q5=="132" && q6=="1800" && q7=="2100" && q8=="1" && q9=="2" && q10=="0"){
+        document.getElementById("tur").play();
+        document.getElementById("tur").currentTime = 0;
+        document.getElementById("bo4").style.backgroundImage="url('./photo/b4.gif')";
+      }
+      else{
+        document.getElementById("er").play();
+        document.getElementById("er").currentTime = 0;
+        document.getElementById("bo4").style.backgroundImage="url('./photo/bo4.gif')";
+      }
+    }
 
-      
+
+
+    "use strict";
+
+    var input = document.getElementById('input'), // input/output button
+      number = document.querySelectorAll('.numbers div'), // number buttons
+      operator = document.querySelectorAll('.operators div'), // operator buttons
+      result = document.getElementById('result'), // equal button
+      clear = document.getElementById('clear'), // clear button
+      resultDisplayed = false; // flag to keep an eye on what output is displayed
+    
+    // adding click handlers to number buttons
+    for (var i = 0; i < number.length; i++) {
+      number[i].addEventListener("click", function(e) {
+    
+        // storing current input string and its last character in variables - used later
+        var currentString = input.innerHTML;
+        var lastChar = currentString[currentString.length - 1];
+    
+        // if result is not diplayed, just keep adding
+        if (resultDisplayed === false) {
+          input.innerHTML += e.target.innerHTML;
+        } else if (resultDisplayed === true && lastChar === "+" || lastChar === "-" || lastChar === "×" || lastChar === "÷") {
+          // if result is currently displayed and user pressed an operator
+          // we need to keep on adding to the string for next operation
+          resultDisplayed = false;
+          input.innerHTML += e.target.innerHTML;
+        } else {
+          // if result is currently displayed and user pressed a number
+          // we need clear the input string and add the new input to start the new opration
+          resultDisplayed = false;
+          input.innerHTML = "";
+          input.innerHTML += e.target.innerHTML;
+        }
+    
+      });
+    }
+    
+    // adding click handlers to number buttons
+    for (var i = 0; i < operator.length; i++) {
+      operator[i].addEventListener("click", function(e) {
+    
+        // storing current input string and its last character in variables - used later
+        var currentString = input.innerHTML;
+        var lastChar = currentString[currentString.length - 1];
+    
+        // if last character entered is an operator, replace it with the currently pressed one
+        if (lastChar === "+" || lastChar === "-" || lastChar === "×" || lastChar === "÷") {
+          var newString = currentString.substring(0, currentString.length - 1) + e.target.innerHTML;
+          input.innerHTML = newString;
+        } else if (currentString.length == 0) {
+          // if first key pressed is an opearator, don't do anything
+          console.log("enter a number first");
+        } else {
+          // else just add the operator pressed to the input
+          input.innerHTML += e.target.innerHTML;
+        }
+    
+      });
+    }
+    
+    result.addEventListener("click", function() {
+    
+      var inputString = input.innerHTML;
+    
+      var numbers = inputString.split(/\+|\-|\×|\÷/g);
+    
+      var operators = inputString.replace(/[0-9]|\./g, "").split("");
+  
+      var divide = operators.indexOf("÷");
+      while (divide != -1) {
+        numbers.splice(divide, 2, numbers[divide] / numbers[divide + 1]);
+        operators.splice(divide, 1);
+        divide = operators.indexOf("÷");
+      }
+    
+      var multiply = operators.indexOf("×");
+      while (multiply != -1) {
+        numbers.splice(multiply, 2, numbers[multiply] * numbers[multiply + 1]);
+        operators.splice(multiply, 1);
+        multiply = operators.indexOf("×");
+      }
+    
+      var subtract = operators.indexOf("-");
+      while (subtract != -1) {
+        numbers.splice(subtract, 2, numbers[subtract] - numbers[subtract + 1]);
+        operators.splice(subtract, 1);
+        subtract = operators.indexOf("-");
+      }
+    
+      var add = operators.indexOf("+");
+      while (add != -1) {
+        numbers.splice(add, 2, parseFloat(numbers[add]) + parseFloat(numbers[add + 1]));
+        operators.splice(add, 1);
+        add = operators.indexOf("+");
+      }
+    
+      input.innerHTML = numbers[0]; 
+    
+      resultDisplayed = true; 
+    });
+    
+    clear.addEventListener("click", function() {
+      input.innerHTML = "";
+    })
+
+
+
+
+
+
+
+
+
+

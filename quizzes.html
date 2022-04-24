@@ -8,7 +8,7 @@
        <link rel="stylesheet" href="css/kids.css">
        <link rel="stylesheet" href="icon/play/css/all.css">
        <meta name="quizzes" content="HTML, CSS, JavaScript">
-       <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
 
     </head>
     <body id="bo4">
@@ -31,7 +31,9 @@
   <span style="cursor:pointer; position:absolute; font-size: 40px; color:black; border: 5px double; border-radius: 30px; z-index: 2 !important; top: 0px;"  onmouseover="this.style.color='brown'" onMouseOut="this.style.color='black'" onclick="openNav()" id="up5">&#9776; </span>
 
   <button id="q2lsw" onclick="q2lsw()">اختبار مستوى ثانى حروف</button>
+  <button id="q1lsw" onclick="q1lsw()"> اختبار مستوى أول حروف</button>
   <button id="q2nsw" onclick="q2nsw()">اختبار مستوى ثانى رياضيات</button>
+  <button id="q1nsw" onclick="q1nsw()"> اختبار مستوى أول رياضيات</button>
 
   <div id="contener1">
 <div id="dq1">
@@ -184,41 +186,40 @@
     
     <label id="l1">(السؤال الاول) <br> 4+2=</label>
     <input type="text" id="numb1" maxlength="1">
-  
+    <hr>
 
     <label id="l2">(السؤال الثانى) <br> 7+1=</label>
     <input type="text" id="numb2" maxlength="1">
-
+    <hr>
     <label id="l3">(السؤال الثالث) <br> 4+3=</label>
     <input type="text" id="numb3" maxlength="1">
-
+    <hr>
 
     <label id="l4">(السؤال الرابع) <br> 5+5=</label>
     <input type="text" id="numb4" maxlength="2">
-
+    <hr>
 
     <label id="l5">(السؤال الخامس) <br> 5×2=</label>
     <input type="text" id="numb5" maxlength="2">
-
+<hr>
 
     <label id="l6">(السؤال السادس) <br> 3×3=</label>
     <input type="text" id="numb6" maxlength="1">
-    
+    <hr>
 
     <label id="l7">(السؤال السابع) <br> 5×3=</label>
     <input type="text" id="numb7" maxlength="2">
-    
-
+    <hr>
     <label id="l8">(السؤال الثامن) <br> 6÷2=</label>
     <input type="text" id="numb8" maxlength="1">
-   
+   <hr>
 
     <label id="l9">(السؤال التاسع) <br> 9÷3=</label>
     <input type="text" id="numb9" maxlength="3">
-    
+    <hr>
 
 
-    <label id="l10">(السؤال العاشر) <br> 3-8=</label>
+    <label id="l10">(السؤال العاشر) <br> 8-3=</label>
     <input type="text" id="numb10" maxlength="1">
     
 
@@ -240,6 +241,125 @@
     
 
 </div>
+
+
+
+
+
+
+<div id="contener3">
+
+    <div id="dq1" >
+        <center>
+        <p class="tiq1">  اختبار مستوى أول رياضيات
+            <br>
+            اكتب الاجابة الصحيحة
+        </p>
+    
+        <label>7×9+2=</label>
+        <input type="text" id="vu1">
+      <hr>
+    
+        <label>(5×8)-4=</label>
+        <input type="text" id="vu2">
+    <hr>
+        <label>(9×4)×2÷70+2</label>
+
+        <input type="text" id="vu8">
+        <hr>
+        <label>19×0=</label>
+        <input type="text" id="vu3">
+    
+    <hr>
+        <label>3×100÷2×75</label>
+        <input type="text" id="vu9">
+    
+    <hr>
+        <label> 40÷4-90÷9</label>
+        <input type="text" id="vu10">
+        
+    <hr>
+        <label> 135+26=</label>
+        <input type="text" id="vu4">
+        
+    <hr>
+        <label> 12×11=</label>
+        <input type="text" id="vu5">
+       
+    <hr>
+        <label>30×60=</label>
+        <input type="text" id="vu6">
+        
+    <hr>
+    
+        <label> 500÷5+50×40=</label>
+        <input type="text" id="vu7">
+       
+        <button type="button" onclick="qzrg()">النتائج</button>
+
+        <div class="calculator">
+            <div class="input" id="input"></div>
+            <div class="buttons">
+              <div class="operators">
+                <div>+</div>
+                <div>-</div>
+                <div>&times;</div>
+                <div>&divide;</div>
+              </div>
+              <div class="leftPanel">
+                <div class="numbers">
+                  <div>7</div>
+                  <div>8</div>
+                  <div>9</div>
+                </div>
+                <div class="numbers">
+                  <div>4</div>
+                  <div>5</div>
+                  <div>6</div>
+                </div>
+                <div class="numbers">
+                  <div>1</div>
+                  <div>2</div>
+                  <div>3</div>
+                </div>
+                <div class="numbers">
+                  <div>0</div>
+                  <div>.</div>
+                  <div id="clear">مسح</div>
+                </div>
+              </div>
+              <div class="equal" id="result">=</div>
+            </div>
+          </div>
+</center>
+    </div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="contener4">
+
+    <div id="dq1">
+        <center>
+        <p class="tiq1">  اختبار مستوى ثانى رياضيات
+            <br>
+            اكتب الاجابة الصحيحة
+        </p>
+        </center>
+    </div>
+</div>
+
+
+
 
 
 
