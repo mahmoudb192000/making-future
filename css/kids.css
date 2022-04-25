@@ -63,7 +63,7 @@
 	display: block;
 	position: fixed;
 	background-color: white;
-	z-index: 100;
+	z-index: 200;
 	top: 0px;
 }
 
