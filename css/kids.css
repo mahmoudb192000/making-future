@@ -1177,6 +1177,13 @@
     }
 
 
+    #dq14{
+        width: 70%;
+        margin-top: 150px;
+        margin-left: 15%;
+       }
+    
+    
 
 
 
@@ -1522,4 +1529,18 @@
       #dq14 div img{
         width: 100%;
    }
+
+
+   #dq14{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 150px;
+   }
+
+
+
+
+
+
+
  }
