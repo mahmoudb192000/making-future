@@ -1,15 +1,24 @@
-setTimeout(wait, 2000)
+/*setTimeout(wait, 2000)
 function wait(){
     document.getElementById("wait").remove();
-}
+}*/
+var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {myFunction()};
   function myFunction() {
+    var currentScrollPos = window.pageYOffset;
 if(document.documentElement.scrollTop > 0){
 document.getElementById("up1").style.display="block";
 }
 else{
     document.getElementById("up1").style.display="none";
 }
+
+if (prevScrollpos > currentScrollPos) {
+  document.getElementById("navbar").style.top = "0";
+} else {
+  document.getElementById("navbar").style.top = "-50px";
+}
+prevScrollpos = currentScrollPos;
   }
  
 function up1(){
@@ -22,8 +31,6 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-
-
 
 
 
