@@ -4,20 +4,15 @@
  }
  ::-webkit-scrollbar {
      width: 20px;
-    
    }
- 
    ::-webkit-scrollbar-track {
      box-shadow: inset 0 0 5px rgb(218, 107, 107); 
      border-radius: 10px;
-     
    }
       ::-webkit-scrollbar-thumb {
      background: brown; 
      border-radius: 10px;
-    
    }
-   
    ::-webkit-scrollbar-thumb:hover {
      background: red; 
    }
@@ -29,7 +24,6 @@
      background-size: contain;
      background-attachment: fixed;
  }
- 
  #bo2 {
      margin: 0px;
      background-image: url(../photo/4sld.gif);
@@ -76,19 +70,15 @@
      left: 40%;
      transform: translate(-50%, -50%);
    }
-   
    /* Safari */
    @-webkit-keyframes spin {
      0% { -webkit-transform: rotate(0deg); }
      100% { -webkit-transform: rotate(360deg); }
    }
-   
    @keyframes spin {
      0% { transform: rotate(0deg); }
      100% { transform: rotate(360deg); }
    }
-
- 
  #up1{
      width: 100px;
      height: 100px;
@@ -99,9 +89,7 @@
      display: none;
      overflow-x:hidden;
      z-index: 60;
-  
  }
-
  .sidenav {
      height: 100%;
      width: 0;
@@ -117,7 +105,6 @@
    .sidenav:hover{
        box-shadow: 10px 10px 10px 10px rgb(196, 82, 82);
    }
-   
    .sidenav a {
      padding: 8px 8px 8px 32px;
      text-decoration: none;
@@ -129,11 +116,9 @@
      margin-top: 10px;
      z-index: 5;
    }
-   
    .sidenav a:hover {
      color: black;
    }
-   
    .sidenav .closebtn {
      position: absolute;
      top: 0;
@@ -141,40 +126,30 @@
      font-size: 36px;
      margin-left: 50px;
    }
-   
- 
  #sld1 {
      background-color: black;
      width: 100%;
      height: 750px;
      border-radius: 50%;
- 
  }
- 
  #sld1:hover {
      background-color: brown;
      box-shadow: 15px 15px 15px black;
- 
  }
- 
  #ss1 {
      width: 100%;
      height: 700px;
      display: block;
      border-bottom-left-radius: 10%;
      border-bottom-right-radius: 10%;
- 
  }
- 
  #ss2 {
      width: 100%;
      height: 700px;
      display: none;
      border-bottom-left-radius: 10%;
      border-bottom-right-radius: 10%;
- 
  }
- 
  #ss3 {
      width: 100%;
      height: 700px;
@@ -182,7 +157,6 @@
      border-bottom-left-radius: 10%;
      border-bottom-right-radius: 10%;
  }
- 
  #ss4 {
      width: 100%;
      height: 700px;
@@ -190,7 +164,6 @@
      border-bottom-left-radius: 10%;
      border-bottom-right-radius: 10%;
  }
- 
  .ss {
      width: 15px;
      height: 15px;
@@ -201,38 +174,27 @@
      border-radius: 15px;
      margin-left: 10px;
  }
- 
  .ss:hover {
      background-color: black;
      cursor: pointer;
  }
- 
  .c1 {
      font-size: 20px;
      color: white;
      margin: 0px;
  }
- 
  #c1 {
      display: block;
  }
- 
  #c2 {
      display: none;
  }
- 
  #c3 {
      display: none;
  }
- 
  #c4 {
      display: none;
  }
- 
- 
- /*index*/
- 
- 
  .grid1 {
      display: grid;
      grid-template-columns: repeat(4, 1fr);
@@ -243,7 +205,6 @@
      display: none;
      margin-top: 0px !important;
  }
- 
  .wa1 {
      width: 100%;
      height: 500px;
@@ -253,13 +214,11 @@
  .wa1:hover {
      box-shadow: 10px 10px 10px 10px rgb(197, 110, 110);
  }
- 
  .wa {
      width: 100%;
      height: 350px;
      border-bottom-left-radius: 30%;
  }
- 
  .grid2 {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
@@ -270,7 +229,6 @@
      display: none;
      margin-top: 0% !important;
  }
- 
  .we1 {
      width: 100%;
      height: 500px;
@@ -279,33 +237,26 @@
  }
  .we1:hover {
      box-shadow: 10px 10px 10px 10px rgb(197, 110, 110);
- 
  }
- 
- 
  .we {
      width: 100%;
      height: 500px;
      border-radius: 25%;
  }
- 
  .wep {
      width: 100%;
      height: 100%;
      background-color: white;
      cursor: pointer;
- 
  }
  .wep:hover{
      box-shadow: 10px 10px 10px 10px rgb(197, 110, 110);
- 
  }
  .wepp {
      width: 100%;
      height: 100%;
      border-radius: 20%;
  }
- 
  #sga {
      width: 200px;
      height: 100px;
@@ -320,7 +271,6 @@
      font-size: 30px;
      border-style: double;
  }
- 
  #sga:hover {
      color: brown;
      background-color: white;
@@ -329,7 +279,6 @@
      border-style: solid;
      border-width: 4px;
  }
- 
  #sge {
      width: 200px;
      height: 100px;
@@ -344,7 +293,6 @@
      font-size: 29px;
      border-style: double;
  }
- 
  #sge:hover {
      color: brown;
      background-color: white;
@@ -352,7 +300,6 @@
      border-style: solid;
      border-width: 4px;
  }
- 
  #ve1 {
      display: none;
      width: 40%;
@@ -362,9 +309,7 @@
      margin-top: 20px;
      cursor: pointer;
      background-color: #5697d9;
- 
  }
- 
  #ve2 {
      display: none;
      width: 40%;
@@ -373,7 +318,6 @@
      cursor: pointer;
      margin-top: 20px;
      background-color: #009950;
- 
  }
  #ve3 {
      display: none;
@@ -382,7 +326,6 @@
      margin-left: 25%;
      cursor: pointer;
      margin-top: 20px;
- 
  }
  .cwa{
      width: 30%;
@@ -390,9 +333,7 @@
      margin-left: 2%;
      display: inline;
      border-radius: 50px;
- 
  }
- 
  #mq1{
      width: 100%;
      display: none;
@@ -404,7 +345,6 @@
      height: 150px;
      margin: 0%;
  }
-
  #imh1{
      width: 200px;
      height: 100px;
@@ -415,8 +355,6 @@
      animation-iteration-count: infinite;
      z-index: 5;
  }
- 
-   
    @keyframes example {
      0%   { left:0px; top:0px;}
      25%  {left:80%; top:0px;transform: rotate(0deg);}
@@ -424,8 +362,6 @@
      75%  {left:0px; top:800px; transform:scaleX(-1);}
      100%  {left:0px; top:0px;transform:scaleX(1);}
    }
- 
- 
    .grid3{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
@@ -441,7 +377,6 @@
      background-color: white;
      cursor: pointer;
  }
- 
  .grid3 div img{
      width: 100%;
      height: 400px;
@@ -454,7 +389,6 @@
      margin: 0%;
      height: 120px;
      display: none;
-     
  }
  #mq2{
      width: 150px;
@@ -463,11 +397,6 @@
      margin: 0%;
      z-index: 2;
  }
- 
- 
- 
- 
- 
  #number {
     width: 200px;
     height: 100px;
@@ -482,7 +411,6 @@
     font-size: 30px;
     border-style: double;
 }
-
 #number:hover {
     color: brown;
     background-color: white;
@@ -491,7 +419,6 @@
     border-style: solid;
     border-width: 4px;
 }
-
 #arithmetic {
     width: 200px;
     height: 100px;
@@ -506,7 +433,6 @@
     font-size: 29px;
     border-style: double;
 }
-
 #arithmetic:hover {
     color: brown;
     background-color: white;
@@ -514,11 +440,6 @@
     border-style: solid;
     border-width: 4px;
 }
-
- 
- 
- 
- 
 .grid4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -542,12 +463,10 @@
      box-shadow: 10px 10px 10px 10px rgb(197, 110, 110);
      color: brown;
  }
-   
         .grid4 div p{
             font-size: 30px;
             margin-top: 30px;
             margin-left: 40%;
-            
         }  
         #dn{
             width: 100%;
@@ -609,9 +528,6 @@
             background-color: white;
             color: black;
         }
-    
- 
- 
  #contener1{
      width: 100%;
      height: 100%;
@@ -714,9 +630,7 @@
 #contener2 button:hover{
     color: black;
     background-color: white;
-
 }
-
 #contener2 p{
     font-size: 40px;
     margin-top: 20px;
@@ -761,12 +675,7 @@
 #contener3 button:hover{
     color: black;
     background-color: white;
-
 }
-
-
-
-
 .calculator {
     padding: 20px;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -774,7 +683,6 @@
     border-radius: 1px;
     font-size: 30px;
   }
-  
   .input {
     border: 1px solid #ddd;
     border-radius: 1px;
@@ -787,14 +695,11 @@
     overflow-x: auto;
     transition: all .2s ease-in-out;
   }
-  
   .input:hover {
     border: 1px solid #bbb;
     -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   }
-  
-
   .operators div {
     display: inline-block;
     border: 1px solid #bbb;
@@ -807,22 +712,18 @@
     background-color: #ddd;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
   }
-  
   .operators div:hover {
     background-color: #ddd;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-color: #aaa;
   }
-  
   .operators div:active {
     font-weight: bold;
   }
-  
   .leftPanel {
     display: inline-block;
   }
-  
   .numbers div {
     display: inline-block;
     border: 1px solid #ddd;
@@ -835,18 +736,15 @@
     background-color: #f9f9f9;
     transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
   }
-  
   .numbers div:hover {
     background-color: #f1f1f1;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-color: #bbb;
   }
-  
   .numbers div:active {
     font-weight: bold;
   }
-  
   div.equal {
     display: inline-block;
     border: 1px solid #3079ED;
@@ -860,20 +758,15 @@
     color: #FFF;
     background-color: #4d90fe;
     transition: all .2s ease-in-out;
-   
   }
-  
   div.equal:hover {
     background-color: #307CF9;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-color: #1857BB;
-    
   }
-  
   div.equal:active {
     font-weight: bold;
-    
   }
  #dq1{
      width: 50%;
@@ -896,7 +789,6 @@
      display: inline-flex;
      margin-top: 50px;
  }
- 
  .qp{
      font-size: 40px;
      margin-top: 20px;
@@ -930,7 +822,6 @@
      display: inline-flex;
      background-color: white;
  }
- 
  .qa1 img{
      width: 100px;
      height: 100px;
@@ -938,12 +829,9 @@
      border-radius: 10px;
      cursor: pointer;
  }
-
  .qa1 img:hover{
     border: 2px solid; 
 }
-
-
 #q2lsw {
     width: 200px;
     height: 100px;
@@ -959,7 +847,6 @@
     border-style: double;
     z-index: 1;
 }
-
 #q2lsw:hover {
     color: brown;
     background-color: white;
@@ -967,7 +854,6 @@
     border-style: solid;
     border-width: 4px;
 }
-
 #q2nsw {
     width: 200px;
     height: 100px;
@@ -983,7 +869,6 @@
     border-style: double;
     z-index: 1;
 }
-
 #q2nsw:hover {
     color: brown;
     background-color: white;
@@ -991,7 +876,6 @@
     border-style: solid;
     border-width: 4px;
 }
-
 #q1nsw {
     width: 200px;
     height: 100px;
@@ -1007,7 +891,6 @@
     border-style: double;
     z-index: 1;
 }
-
 #q1nsw:hover {
     color: red;
     background-color: white;
@@ -1015,7 +898,6 @@
     border-style: solid;
     border-width: 4px;
 }
-
 #q1lsw {
     width: 200px;
     height: 100px;
@@ -1031,7 +913,6 @@
     border-style: double;
     z-index: 1;
 }
-
 #q1lsw:hover {
     color: brown;
     background-color: white;
@@ -1039,7 +920,6 @@
     border-style: solid;
     border-width: 4px;
 }
-
 .d5{
     position:relative;
     width: 1000px;
@@ -1085,7 +965,6 @@
     #upinx{
         display: none;
     }
-    
     #navbar {
         background-color: brown;
         position: fixed;
@@ -1095,7 +974,6 @@
         transition: top 0.3s;
         z-index: 100;
       }
-      
       #navbar a {
         float: right;
         display: block;
@@ -1105,22 +983,11 @@
         text-decoration: none;
         font-size: 17px;
       }
-      
       #navbar a:hover {
         background-color: rgb(228, 111, 111);
         color: black;
       }
-
-   
-
-
-
-
  @media screen and (max-width: 1000px) {
- 
-    
-
-    
         .d5{
         width: 800px;
         height: 600px;
@@ -1140,35 +1007,24 @@
         width: 700px;
         height: 600px;
         }
-      
         .h2{
         margin-left: 30px;
         }
-    
      .grid1 {
          grid-template-columns: repeat(2, 1fr);
          grid-gap: 20px;
      }
-     
- 
      #sga {
          right: 20%;
-       
-     }
-     
-     
+    }
      #sge {
  
          left: 30%;
-         
      }
      
      #imh1{
          width: 150px;
-        
      }
-     
-       
        @keyframes example {
          0%   { left:0px; top:0px;}
          25%  {left:70%; top:0px;transform: rotate(0deg);}
@@ -1179,18 +1035,12 @@
        .grid3{
          grid-template-columns: repeat(2, 1fr);
      }
-     
-     
      #number {
         right: 20%;
-      
     }
-    
-    
     #arithmetic {
 
         left: 30%;
-        
     }
     #dq1{
         width: 70%;
@@ -1209,61 +1059,27 @@
     .qa1 img{
         margin-left: 100px;
     }
-
-
     #dq14{
         width: 70%;
         margin-top: 150px;
         margin-left: 15%;
        }
-    
-    
-
-
-
     #q2lsw {
-       
         right: 20%;
-      
     }
     #q2nsw {
-     
         left: 30%;
-       
     }
-    
-
     #q1nsw {
         left: 30%;
         top: 30%;
-      
     }
-    
-    
     #q1lsw {
         top: 30%;
         right: 20%;
     }
-    
-   
-
-
-
-
-
-
-
-
-
-
-
-
  }
- 
  @media screen and (max-width: 600px) {
- 
-  
-   
     .d5{
         width: 100%;
         height: 750px;
@@ -1292,98 +1108,65 @@
         width: 100%;
         height: 750px;
         }
-        
-        
-
-
      .loader {
          top: 30%;
          left: 30%;
        }
- 
  #h1r{
      margin-top: 20% !important;
      margin-left: 30% !important;
  }
-
- 
      .ss {
          margin-left: 10px;
          width: 20px;
          height: 20px;
      }
- 
      #sld1 {
          border-radius: 20%;
          height: 700px;
      }
- 
      #ss1 {
          height: 600px;
      }
- 
      #ss2 {
          height: 600px;
      }
- 
      #ss3 {
          height: 600px;
      }
- 
      #ss4 {
          height: 600px;
      }
-     
-     
      #sga {
      width: 100px;
      height: 100px;
      right: 10%;
      font-size: 20px;
  }
- 
  #sga:hover {
      font-size: 25px;
  }
- 
  #sge {
      width: 100px;
      height: 100px;
      left: 30%;
      font-size: 20px;
  }
- 
  #sge:hover {
      font-size: 25px;
- 
  }
- 
-     
-     
      .grid1 {
      grid-template-columns: repeat(2, 1fr);
- }
- 
-     
-     
-     
-     
-     
+ }   
      .grid2 {
      grid-template-columns: repeat(1, 1fr);
  }
  .grid3{
      grid-template-columns: repeat(1, 1fr);
  }
- 
- 
- 
  .wep {
      height: 500px;
- 
  }
- 
-     
      #ve1 {
      width: 100%;
      height: 500px;
@@ -1391,31 +1174,22 @@
      margin-right: 0px;
      margin-top: 5px;
  }
- 
  #ve2 {
      width: 100%;
      height: 500px;
      margin-right: 0px;
      margin-top: 5px;
- 
  }
- 
- 
  .cwa{
      width: 30%;
      height: 140px;
      margin-left: 1%;
      display: inline;
      border-radius: 50px;
- 
- }
-    
-     
+ }   
  #imh1{
      width: 100px;
- }
- 
-   
+ } 
    @keyframes example {
      0%   { left:0px; top:0px;}
      25%  {left:70%; top:0px;transform: rotate(0deg);}
@@ -1423,63 +1197,46 @@
      75%  {left:0px; top:500px; transform:scaleX(-1);}
      100%  {left:0px; top:0px;transform:scaleX(1);}
    }
- 
- 
    #ve3 {
      width: 100%;
      height: 400px;
      margin-left: 0px;
- 
  }
-     
  #number {
     width: 100px;
     height: 100px;
     right: 10%;
     font-size: 20px;
 }
-
 #number:hover {
     font-size: 25px;
 }
-
 #arithmetic {
     width: 100px;
     height: 100px;
     left: 30%;
     font-size: 20px;
 }
-
 #arithmetic:hover {
     font-size: 25px;
-
 }
-
 .grid4 {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
         }
-      
- 
-   
         .grid4 div p{
             font-size: 15px;
-            margin-top: 10px;
-            
+            margin-top: 10px;   
         }  
         #dn{
             font-size: 25px; 
         }
-
 #bhs{
     margin-left: 30%;
 } 
-
  #bhh{
      margin-left: 30%;
-
 }
-
 #bhs:hover{
     font-size: 15px;
 } 
@@ -1508,18 +1265,12 @@
 .qa1 img{
     margin-left: 40px; 
 }
-
-
-
-
-
     #q2lsw {
     width: 80px;
     height: 80px;
     right: 10%;
     font-size: 10px;
     border-radius: 50px;
-      
     }
     #q2nsw {
         width: 80px;
@@ -1527,12 +1278,7 @@
         left: 30%;
         font-size: 10px;
         border-radius: 50px;
-       
     }
-
-
-
-
     #q1nsw {
         width: 80px;
         height: 80px;
@@ -1540,10 +1286,7 @@
         top: 30%;
         font-size: 10px;
         border-radius: 50px;
-
     }
-    
-    
     #q1lsw {
         width: 80px;
         height: 80px;
@@ -1551,10 +1294,7 @@
         right: 10%;
         font-size: 10px;
         border-radius: 50px;
-
     }
-    
-   
     div.equal {
         width: 50%;
         padding: 0px 0px;
@@ -1563,23 +1303,15 @@
       #dq14 div img{
         width: 100%;
    }
-
-
    #dq14{
     width: 90%;
     margin-left: 5%;
     margin-top: 150px;
    }
-
-
    #navbar {
        display: none;
    }
    #upinx{
        display: block;
    }
-
-
-
-
  }

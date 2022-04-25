@@ -31,14 +31,6 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-
-
-
-
-
-
-
-
 setInterval(cs1, 5000);
 setInterval(cs2, 10000);
 setInterval(cs3, 15000);
@@ -83,5 +75,3 @@ function cs4(){
     document.getElementById("c3").style.display="none";
     document.getElementById("c4").style.display="block";
 }
-
-
