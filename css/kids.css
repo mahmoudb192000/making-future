@@ -628,8 +628,35 @@
     position:absolute;
     display: none;
 }
+#dq14{
+    width: 50%;
+     height: auto;
+     background-color: white;
+     margin-top: 150px;
+     margin-left: 25%;
+     border:none; 
+     border-radius: 20px 20px 30px 30px ;
+}
+#dq14 div{
+    background-color: #009950;
+    width: 100%;
+    height: 200px;
+}
 
-
+#dq14 div img{
+     width: 50%;
+    height: 200px;
+}
+#dq14 input{
+    font-size: 40px;
+    width: 50%;
+    height: 50px;
+    display: block;
+    margin-top: 10px;
+    border-color: brown;
+    border-radius: 20px 0px 20px 0px;
+    border-style: double;
+}
 #contener2 label{
     font-size: 40px;
     display: block;

@@ -496,6 +496,165 @@ function q2nsw() {
            // document.getElementById("cqa10").pause();
             
         }
+
+
+
+
+
+
+
+
+
+  
+        function pcqa11(){
+          // document.getElementById("cqa11").play();
+          // document.getElementById("cqa11").currentTime = 0;
+           document.getElementById("tur").pause();
+           document.getElementById("er").pause();
+       }
+       function o31(){
+           document.getElementById("o31").style.boxShadow="10px 10px red";
+           document.getElementById("o32").style.boxShadow="none";
+           document.getElementById("o33").style.boxShadow="none";
+           document.getElementById("er").play();
+           document.getElementById("er").currentTime = 0;
+           document.getElementById("tur").pause();
+          // document.getElementById("cqa11").pause();
+       }
+       function o32(){
+           document.getElementById("o32").style.boxShadow="10px 10px green";
+           document.getElementById("o31").style.boxShadow="none";
+           document.getElementById("o33").style.boxShadow="none";
+           document.getElementById("er").pause();
+           document.getElementById("tur").play();
+           document.getElementById("tur").currentTime = 0; 
+          // document.getElementById("cqa11").pause();
+          
+       }
+       function o33(){
+           document.getElementById("o33").style.boxShadow="10px 10px red";
+           document.getElementById("o30").style.boxShadow="none";
+           document.getElementById("o31").style.boxShadow="none";
+           document.getElementById("er").play();
+           document.getElementById("er").currentTime = 0;
+           document.getElementById("tur").pause(); 
+          // document.getElementById("cqa11").pause();
+           
+       }
+
+
+
+       function pcqa12(){
+        // document.getElementById("cqa12").play();
+        // document.getElementById("cqa12").currentTime = 0;
+         document.getElementById("tur").pause();
+         document.getElementById("er").pause();
+     }
+     function o34(){
+         document.getElementById("o34").style.boxShadow="10px 10px red";
+         document.getElementById("o35").style.boxShadow="none";
+         document.getElementById("o36").style.boxShadow="none";
+         document.getElementById("er").play();
+         document.getElementById("er").currentTime = 0;
+         document.getElementById("tur").pause();
+        // document.getElementById("cqa12").pause();
+     }
+     function o35(){
+         document.getElementById("o35").style.boxShadow="10px 10px green";
+         document.getElementById("o34").style.boxShadow="none";
+         document.getElementById("o36").style.boxShadow="none";
+         document.getElementById("er").pause();
+         document.getElementById("tur").play();
+         document.getElementById("tur").currentTime = 0; 
+        // document.getElementById("cqa12").pause();
+        
+     }
+     function o36(){
+         document.getElementById("o36").style.boxShadow="10px 10px red";
+         document.getElementById("o34").style.boxShadow="none";
+         document.getElementById("o35").style.boxShadow="none";
+         document.getElementById("er").play();
+         document.getElementById("er").currentTime = 0;
+         document.getElementById("tur").pause(); 
+        // document.getElementById("cqa12").pause();
+         
+     }
+
+
+
+
+
+
+
+     function pcqa13(){
+      // document.getElementById("cqa13").play();
+      // document.getElementById("cqa13").currentTime = 0;
+       document.getElementById("tur").pause();
+       document.getElementById("er").pause();
+   }
+   function o37(){
+       document.getElementById("o37").style.boxShadow="10px 10px red";
+       document.getElementById("o38").style.boxShadow="none";
+       document.getElementById("o39").style.boxShadow="none";
+       document.getElementById("er").play();
+       document.getElementById("er").currentTime = 0;
+       document.getElementById("tur").pause();
+      // document.getElementById("cqa13").pause();
+   }
+   function o38(){
+       document.getElementById("o38").style.boxShadow="10px 10px green";
+       document.getElementById("o39").style.boxShadow="none";
+       document.getElementById("o37").style.boxShadow="none";
+       document.getElementById("er").pause();
+       document.getElementById("tur").play();
+       document.getElementById("tur").currentTime = 0; 
+      // document.getElementById("cqa13").pause();
+      
+   }
+   function o39(){
+       document.getElementById("o39").style.boxShadow="10px 10px red";
+       document.getElementById("o38").style.boxShadow="none";
+       document.getElementById("o37").style.boxShadow="none";
+       document.getElementById("er").play();
+       document.getElementById("er").currentTime = 0;
+       document.getElementById("tur").pause(); 
+      // document.getElementById("cqa13").pause();
+       
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         function shrus(){
           let x1=document.getElementById("numb1").value;
           if (x1==6) {
