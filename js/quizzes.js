@@ -715,7 +715,7 @@ function o32() {
 
 function o33() {
    document.getElementById("o33").style.boxShadow = "10px 10px red";
-   document.getElementById("o30").style.boxShadow = "none";
+   document.getElementById("o32").style.boxShadow = "none";
    document.getElementById("o31").style.boxShadow = "none";
    document.getElementById("er").play();
    document.getElementById("er").currentTime = 0;
