@@ -274,7 +274,26 @@ function q2nsw() {
    document.getElementById("numb8").value = "";
    document.getElementById("numb9").value = "";
    document.getElementById("numb10").value = "";
-
+   document.getElementById("rus1").innerHTML = "";
+   document.getElementById("l1").style.color = "black";
+   document.getElementById("rus2").innerHTML = "";
+   document.getElementById("l2").style.color = "black";
+   document.getElementById("rus3").innerHTML = "";
+   document.getElementById("l3").style.color = "black";
+   document.getElementById("rus4").innerHTML = "";
+   document.getElementById("l4").style.color = "black";
+   document.getElementById("rus5").innerHTML = "";
+   document.getElementById("l5").style.color = "black";
+   document.getElementById("rus6").innerHTML = "";
+   document.getElementById("l6").style.color = "black";
+   document.getElementById("rus7").innerHTML = "";
+   document.getElementById("l7").style.color = "black";
+   document.getElementById("rus8").innerHTML = "";
+   document.getElementById("l8").style.color = "black";
+   document.getElementById("rus9").innerHTML = "";
+   document.getElementById("l9").style.color = "black";
+   document.getElementById("rus10").innerHTML = "";
+   document.getElementById("l10").style.color = "black";
    document.getElementById("er").pause();
    document.getElementById("tur").pause();
    document.getElementById("cqa1").pause();
