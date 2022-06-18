@@ -1189,8 +1189,8 @@ div.equal:active {
 	height: 100%;
 	width: 100%;
 	opacity: 0;
-	transition: .3s ease;
-	background-color: red;
+	transition: .5s ease;
+	background-color: brown;
 }
 .bicu:hover .dcuui {
 	opacity: 1;
